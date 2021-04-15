@@ -1,0 +1,112 @@
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+}
+* {
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.fa-shopping-cart {
+  font-size: 25px !important;
+}
+.fa-user-circle-o {
+  font-size: 23px !important;
+}
+h3 {
+  color: rgb(231, 19, 19);
+}
+.fa-headphones,
+.fa-thumbs-up,
+.fa-truck {
+  font-size: 50px !important;
+  margin-right: 15px;
+  color: rgb(231, 19, 19);
+}
+
+.card2,
+.card3,
+.card1 {
+  display: flex;
+  width: 350px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 4px 5px rgb(82, 81, 81);
+  margin-top: 15px;
+}
+.maincard {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+  .card2,
+  .card3,
+  .card1 {
+    width: 100%;
+  }
+}
+.newarrival {
+  margin-top: 50px;
+}
+.card {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card-title,
+.card-text {
+  font-weight: bold;
+}
+.btn-primary {
+  width: 100% !important;
+  background-color: rgb(231, 19, 19) !important;
+}
+.btn-primary:hover {
+  color:white  !important;
+  background-color:rgb(243, 72, 72) !important;
+  text-decoration: underline;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  color: rgb(231, 19, 19);
+}
+.heading h1 {
+  text-shadow: 2px 2px 4px black;
+}
+.nav-item a:hover {
+  text-decoration: underline !important;
+  color: rgb(87, 87, 87) !important;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(231, 19, 19);
+  height: 60px;
+}
+.footer div {
+  text-align: center;
+  color: white;
+}
+.container-fluid{
+text-align: center; 
+display: flex; 
+justify-content: center; 
+background-color: rgb(231, 19, 19); 
+color: white;
+font-size: 20px;
+}
+.honey a{
+  text-decoration:underline;
+  color: rgb(87, 87, 87);
+}
+.honey{
+  margin-top: 20px;
+}
+.honey a:hover{
+  color: white;
+}
+
